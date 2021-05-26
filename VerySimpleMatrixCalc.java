@@ -37,8 +37,6 @@ public class VerySimpleMatrixCalc {
 
     /**
      * method floatMatrix() create matrix of custom size and returns it.
-     * @param order
-     * @return
      */
 
     public static double[][] floatMatrix(String order) {
@@ -59,8 +57,6 @@ public class VerySimpleMatrixCalc {
 
     /**
      * method matrixSum() implements the mechanism of matrix summation.
-     * @param arrayOne
-     * @param arrayTwo
      */
 
     public static void matrixSum(double[][] arrayOne, double[][] arrayTwo) {
@@ -81,8 +77,6 @@ public class VerySimpleMatrixCalc {
 
     /**
      * method matrixMultiplication() implements the mechanism of matrix multiplication.
-     * @param matrix1
-     * @param matrix2
      */
 
     public static void matrixMultiplication(double[][] matrix1, double[][] matrix2) {
@@ -109,8 +103,6 @@ public class VerySimpleMatrixCalc {
 
     /**
      * method simpleMultiply() implements the mechanism of simple multiplication matrix by constant.
-     * @param array
-     * @param constant
      */
 
     public static void simpleMultiply(double[][] array, double constant) {
@@ -127,7 +119,6 @@ public class VerySimpleMatrixCalc {
 
     /**
      * method transposeMainDiagonal() implements the mechanism which allows to transpose matrix by its main diagonal.
-     * @param matrix
      */
 
     public static void transposeMainDiagonal(double[][] matrix) {
@@ -154,7 +145,6 @@ public class VerySimpleMatrixCalc {
 
     /**
      * method transposeSideDiagonal() implements the mechanism which allows to transpose matrix by its side diagonal.
-     * @param matrix
      */
 
     public static void transposeSideDiagonal(double[][] matrix) {
@@ -180,7 +170,6 @@ public class VerySimpleMatrixCalc {
 
     /**
      * method transposeByVertical() implements the mechanism which allows to transpose matrix by vertical.
-     * @param matrix
      */
 
     public static void transposeByVertical(double[][] matrix) {
@@ -206,7 +195,6 @@ public class VerySimpleMatrixCalc {
 
     /**
      * method transposeByHorizontal() implements the mechanism which allows to transpose matrix by horizontal.
-     * @param matrix
      */
 
     public static void transposeByHorizontal(double[][] matrix) {
@@ -232,7 +220,6 @@ public class VerySimpleMatrixCalc {
 
     /**
      * method transposeAction() performs result of choice of transpose type.
-     * @param option
      */
 
     public static void transposeAction(String option) {
@@ -266,7 +253,6 @@ public class VerySimpleMatrixCalc {
 
     /**
      * method action() performs result of choice of action with matrix.
-     * @param option
      */
 
     public static void action(String option) {
